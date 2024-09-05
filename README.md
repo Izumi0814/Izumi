@@ -1,2 +1,0 @@
-# Izumi
-First code website
