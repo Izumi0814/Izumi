@@ -34,6 +34,7 @@ body, html {
   background-color: #abffe4;
   text-align: center;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .hero-text button:hover {
@@ -54,30 +55,17 @@ body, html {
     background-color:#abffe4(161, 129, 243, 0.458)
   }
   .two {
-    grid-column: 2;
-    grid-row: 2 / 3;
+    grid-column: 2 / 5;
+    grid-row: 2;
     background-color:#abffe4(253, 77, 77)
   }
   .three {
-    grid-column: 3;
-    grid-row: 2 / 3;
-    background-color:#7c65cd(77, 247, 253)
+    grid-column: 2;
+    grid-row: 3;
+    background-color:#abffe4(253, 77, 77)
   }
   .four {
-    grid-column: 1 / 5;
+    grid-column: 3;
     grid-row: 3;
-    background-color:#7c65cd(241, 253, 77)
-  }
-
-
-.wrapper1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-  }
-  .one1 {
-    grid-column: 1;
-  }
-  .two1 {
-    grid-column: 2;
+    background-color:#abffe4(253, 77, 77)
   }
